@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.webp">
+    <!-- ==import font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- ==fontawesome-for-icons====== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- swiper slider css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        
+/* clients */
+#clients{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f656;
+    padding: 60px 0px;
+    margin: 40px auto;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+}
+.client-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.client-heading h3{
+    font-size: 1.8rem;
+    color: #202020;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 0px 5px;
+}
+.client-heading p{
+    color: #696969;
+    font-size: 0.8rem;
+}
+.client-box-container{
+    grid-gap: 20px;
+    width: 90%;
+    margin-top: 40px;
+}
+.client-box{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border: 1px solid #f1f1f1;
+    border-radius: 0px 30px 0px 30px;
+}
+.client-profile{
+    display: flex;
+    align-items: center;
+}
+.client-profile img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.profile-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.profile-text strong{
+    color: #393939;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.profile-text span{
+    color: #949494;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.rating{
+    display: flex;
+    margin: 10px 0px;
+}
+.rating i{
+    color: var(--main-color);
+}
+.client-box p{
+    color: #7c7c7c;
+    font-size: 0.9rem;
+}
+    </style>
+</head>
+<body>
+    <!-- testimonials -->
+    <section id="clients">
+        <!-- headings -->
+        <div class="client-heading">
+            <h3>Testimonials</h3>
+            <p>What they say</p>
+        </div>
+
+        <!-- container -->
+        <div class="client-box-container">
+
+            <div class="swiper mySwiperTestimonials">
+                <div class="swiper-wrapper">
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                          <!-- box -->
+            <div class="client-box">
+                <!-- profile -->
+                <div class="client-profile">
+                    <img src="t1.jpg" alt="client">
+                    <div class="profile-text">
+                        <strong>Adward James</strong>
+                        <span>Client</span>
+                    </div>
+                </div>
+                <!-- rating -->
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <!-- comment -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quaerat. Officiis ducimus iusto
+                    itaque enim, quos iure ab delectus! Voluptatibus omnis a, magnam laboriosam ex, ab odio assumenda
+                    error odit minima doloribus at aliquid nobis.</p>
+
+            </div><!--box-end-->
+                    </div>
+
+                    <!-- slide -->
+                    <div class="swiper-slide">
+                        <!-- box -->
+          <div class="client-box">
+              <!-- profile -->
+              <div class="client-profile">
+                  <img src="t1.jpg" alt="client">
+                  <div class="profile-text">
+                      <strong>Adward James</strong>
+                      <span>Client</span>
+                  </div>
+              </div>
+              <!-- rating -->
+              <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+              </div>
+              <!-- comment -->
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quaerat. Officiis ducimus iusto
+                  itaque enim, quos iure ab delectus! Voluptatibus omnis a, magnam laboriosam ex, ab odio assumenda
+                  error odit minima doloribus at aliquid nobis.</p>
+
+          </div><!--box-end-->
+                  </div>
+
+                  <!-- slide -->
+                  <div class="swiper-slide">
+                        <!-- box -->
+          <div class="client-box">
+              <!-- profile -->
+              <div class="client-profile">
+                  <img src="t1.jpg" alt="client">
+                  <div class="profile-text">
+                      <strong>Adward James</strong>
+                      <span>Client</span>
+                  </div>
+              </div>
+              <!-- rating -->
+              <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+              </div>
+              <!-- comment -->
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quaerat. Officiis ducimus iusto
+                  itaque enim, quos iure ab delectus! Voluptatibus omnis a, magnam laboriosam ex, ab odio assumenda
+                  error odit minima doloribus at aliquid nobis.</p>
+
+          </div><!--box-end-->
+                  </div>
+
+                   <!-- slide -->
+                   <div class="swiper-slide">
+                    <!-- box -->
+      <div class="client-box">
+          <!-- profile -->
+          <div class="client-profile">
+              <img src="t1.jpg" alt="client">
+              <div class="profile-text">
+                  <strong>Adward James</strong>
+                  <span>Client</span>
+              </div>
+          </div>
+          <!-- rating -->
+          <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+          </div>
+          <!-- comment -->
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quaerat. Officiis ducimus iusto
+              itaque enim, quos iure ab delectus! Voluptatibus omnis a, magnam laboriosam ex, ab odio assumenda
+              error odit minima doloribus at aliquid nobis.</p>
+
+      </div><!--box-end-->
+                   </div>
+ 
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+          
+        </div>
+
+    </section>
+    <script src="326.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        /*product*/ 
+        var swiper = new Swiper(".mySwiperNewProduct", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                /*after 640px slideperview: 1,*/
+                640: {/* after 740px this will apply*/
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                740: {/* after 1000px this will apply*/
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                1000: {/* after 122px this will apply*/
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                },
+                1224: {/*this code apply before 1024px screen width*/
+                    slidesPerView: 5, /*product per slide*/
+                    spaceBetween: 20, /*gape*/
+                },
+            },
+        });
+
+        /* testimonial*/
+        var swiper = new Swiper(".mySwiperTestimonials", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      },
+    });
+
+    /* fix header*/
+    window.addEventListener('scroll',function(){
+        var header = document.getElementById('header');
+        if (window.scrollY > 0) {
+            header.classList.add('header-fix');
+            } 
+            else {
+                header.classList.remove('header-fix');
+                }
+    });
+    </script>
+</body>
+</html>

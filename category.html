@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="logo.webp">
+    <!-- ==import font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- ==fontawesome-for-icons====== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- swiper slider css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+    /*  category */
+        #category{
+            width: calc(100% - 40px);
+            max-width: 1550px;
+            margin: 0px auto;
+            margin-bottom: 80px;
+        }
+        .category-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: 20px;
+        }
+        .category-box{
+            width: 100%;
+            height: 400px;
+            position: relative;
+            transition: all ease 0.3s;
+        }
+        .category-box:hover{
+            opacity: 0.8;
+        }
+        .category-box img{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0px;
+            top: 0px;
+            object-fit: cover;
+            object-position: center;
+        }
+        .category-box strong{
+            position: absolute;
+            left: 40px;
+            bottom: 20px;
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #313131;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        </style>
+</head>
+<body>
+</section>
+<!-- ==category======= -->
+<section id="category">
+
+    <div class="category-container">
+        <!-- *box* -->
+        <a href="#" class="category-box">
+            <img src="img1-middle.webp" alt="category">
+            <strong>Ring</strong>
+        </a>
+        <!-- *box* -->
+        <a href="#" class="category-box">
+            <img src="img2-middle.webp" alt="category" />
+            <strong>Earings</strong>
+        </a>
+
+        <!-- *box* -->
+        <a href="#" class="category-box">
+            <img src="img3-middle.webp" alt="category" />
+            <strong>Necklaces</strong>
+        </a>
+
+        <!-- *box* -->
+        <a href="#" class="category-box">
+            <img src="img4-middle.webp" alt="category" />
+            <strong>Bracelets</strong>
+        </a>
+
+        <!-- *box* -->
+        <a href="#" class="category-box">
+            <img src="joyful 20gm lakshmi ganesh silver coin 2493.webp" alt="category" />
+            <strong>Silver Coins</strong>
+        </a>
+    </div>
+</section>
+<script  src="326.js"></script>
+
+</body>
+</html>

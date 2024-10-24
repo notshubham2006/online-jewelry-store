@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.webp">
+    <!-- ==import font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- ==fontawesome-for-icons====== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- swiper slider css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        /* blog */
+#blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.blog-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog-heading h3{
+    font-size: 2rem;
+    color: #2b2b2b;
+    font-weight: 600;
+}
+.blog-heading span{
+    color: var(--main-color);
+    font-size: 0.9rem;
+}
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.blog-box{
+    max-width: 350px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    width: 100%;
+    margin: 20px;
+}
+.blog-img{
+    width: 100%;
+    height: 100%;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-box span{
+    color: var(--main-color);
+    font-weight: 0.9;
+}
+.blog-box .blog-title{
+    font-size: 1.3rem;
+    font-size: 500;
+    color: #272727;
+}
+.blog-box p{
+    color: #9b9b9b;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.blog-box a{
+    color: #0f0f0f;
+    transition: all ease 0.3s;
+}
+.blog-box a:hover{
+    color: var(--main-color)
+}
+    </style>
+</head>
+<body>
+    <!-- Blogs -->
+    <section id="blog">
+        <!-- heading -->
+         <div class="blog-heading">
+         <h3>Latest Blog</h3>
+         <span>There are latest blog posts</span>
+         </div>
+
+         <div class="blog-container">
+            <!-- box -->
+             <div class="blog-box">
+                <!-- img -->
+                 <div class="blog-img">
+                    <img src="blog-img1.webp" alt="blog"/>
+                 </div>
+                 <!-- text -->
+                  <div class="blog-text">
+                  <span>19 May 2024 / Jewellery</span>
+                  <a href="#" class="blog-title">
+                    Best Family Jewellery Collection
+                  </a>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit facere amet quos ducimus odit veritatis aperiam eius voluptas facilis? Autem iure eos odit impedit rem perspiciatis pariatur molestias ipsam blanditiis?</p>
+                  <a href="#" class="read-more">Read More</a>
+             </div>
+         </div>
+
+                    <!-- box -->
+                    <div class="blog-box">
+                        <!-- img -->
+                         <div class="blog-img">
+                            <img src="blog-img2.webp" alt="blog"/>
+                         </div>
+                         <!-- text -->
+                          <div class="blog-text">
+                          <span>19 May 2024 / Jewellery</span>
+                          <a href="#" class="blog-title">
+                            Best Family Jewellery Collection
+                          </a>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit facere amet quos ducimus odit veritatis aperiam eius voluptas facilis? Autem iure eos odit impedit rem perspiciatis pariatur molestias ipsam blanditiis?</p>
+                          <a href="#" class="read-more">Read More</a>
+                     </div>
+                 </div>
+
+                            <!-- box -->
+             <div class="blog-box">
+                <!-- img -->
+                 <div class="blog-img">
+                    <img src="blog-img3.webp" alt="blog"/>
+                 </div>
+                 <!-- text -->
+                  <div class="blog-text">
+                  <span>19 May 2024 / Jewellery</span>
+                  <a href="#" class="blog-title">
+                    Best Family Jewellery Collection
+                  </a>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit facere amet quos ducimus odit veritatis aperiam eius voluptas facilis? Autem iure eos odit impedit rem perspiciatis pariatur molestias ipsam blanditiis?</p>
+                  <a href="#" class="read-more">Read More</a>
+             </div>
+         </div>
+     </section>
+     <script src="326.js"></script>
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ 
+     <!-- Initialize Swiper -->
+     <script>
+         /*product*/ 
+         var swiper = new Swiper(".mySwiperNewProduct", {
+             slidesPerView: 1,
+             spaceBetween: 10,
+             pagination: {
+                 el: ".swiper-pagination",
+                 clickable: true,
+             },
+             breakpoints: {
+                 /*after 640px slideperview: 1,*/
+                 640: {/* after 740px this will apply*/
+                     slidesPerView: 2,
+                     spaceBetween: 20,
+                 },
+                 740: {/* after 1000px this will apply*/
+                     slidesPerView: 2,
+                     spaceBetween: 20,
+                 },
+                 1000: {/* after 122px this will apply*/
+                     slidesPerView: 4,
+                     spaceBetween: 20,
+                 },
+                 1224: {/*this code apply before 1024px screen width*/
+                     slidesPerView: 5, /*product per slide*/
+                     spaceBetween: 20, /*gape*/
+                 },
+             },
+         });
+ 
+         /* testimonial*/
+         var swiper = new Swiper(".mySwiperTestimonials", {
+       slidesPerView: 1,
+       spaceBetween: 10,
+       pagination: {
+         el: ".swiper-pagination",
+         clickable: true,
+       },
+       breakpoints: {
+         640: {
+           slidesPerView: 2,
+           spaceBetween: 20,
+         },
+         1024: {
+           slidesPerView: 3,
+           spaceBetween: 20,
+         },
+       },
+     });
+ 
+     /* fix header*/
+     window.addEventListener('scroll',function(){
+         var header = document.getElementById('header');
+         if (window.scrollY > 0) {
+             header.classList.add('header-fix');
+             } 
+             else {
+                 header.classList.remove('header-fix');
+                 }
+     });
+     </script>
+</body>
+</html>
